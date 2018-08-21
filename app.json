@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/assets/assets",
+    "pages/bills/bills"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -16,13 +17,13 @@
     "backgroundColor": "#fff",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/assets/assets",
         "text": "账单",
         "iconPath": "images/tab_bills_normal.png",
         "selectedIconPath": "images/tab_bills.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/bills/bills",
         "text": "资产",
         "iconPath": "images/tab_assets_normal.png",
         "selectedIconPath": "images/tab_assets.png"
