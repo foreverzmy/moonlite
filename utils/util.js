@@ -14,6 +14,15 @@ const formatNumber = n => {
   return n[1] ? n : '0' + n
 }
 
+const isLogined = () =>{
+  let auth = wx.getStorageSync('auth') || {}
+  if (auth.token && auth.uid) {
+    return auth
+  }
+  return false
+}
+
 module.exports = {
-  formatTime: formatTime
+  formatTime,
+  isLogined
 }

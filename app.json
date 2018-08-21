@@ -6,7 +6,33 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "月光光",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#abb4bf",
+    "selectedColor": "#ff4040",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "账单",
+        "iconPath": "images/tab_bills_normal.png",
+        "selectedIconPath": "images/tab_bills.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "资产",
+        "iconPath": "images/tab_assets_normal.png",
+        "selectedIconPath": "images/tab_assets.png"
+      }, 
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "images/tab_user_normal.png",
+        "selectedIconPath": "images/tab_user.png"
+      }
+    ]
   }
 }
